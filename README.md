@@ -1,0 +1,1 @@
+A library that compiles XML and Stylesheets into pure JavaScript for Titanium Views

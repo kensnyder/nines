@@ -1,7 +1,7 @@
 {
   "name": "nines",
   "version": "0.8.0",
-  "description": "A library that compiles XML and Stylesheets into Titanium Views",
+  "description": "A library that compiles XML and Stylesheets into pure JavaScript for Titanium Views",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
