@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<View a="1">
+	<TextArea b="2">
+		<% if (this.alive) { %>
+			Alive
+		<% } else { %>
+			Dead
+		<% } %>
+	</TextArea>
+</View>

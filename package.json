@@ -1,0 +1,29 @@
+{
+  "name": "nines",
+  "version": "0.8.0",
+  "description": "A library that compiles XML and Stylesheets into Titanium Views",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "Titanium",
+    "XML",
+    "Stylesheet",
+    "Alloy",
+    "Mobile",
+    "iOS",
+    "Android"
+  ],
+  "author": "Ken Snyder",
+  "license": "MIT",
+  "devDependencies": {
+    "extend": "^2.0.0",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-nodeunit-runner": "^0.2.2",
+    "js-beautify": "^1.5.4",
+    "jshint-stylish": "^1.0.0",
+    "lodash": "^2.4.1"
+  }
+}

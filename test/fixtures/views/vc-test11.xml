@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<View>
+	<View>
+		<!-- This <View> is cool -->
+		<View/>
+	</View>
+	<![CDATA[ This <View> is cooler ]]>
+	<View/>
+</View>

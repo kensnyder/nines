@@ -1,0 +1,5 @@
+@media (Device.getOrientation() == "portrait") {
+	.a {
+		b: c
+	}
+}
