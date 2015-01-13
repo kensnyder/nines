@@ -2,7 +2,7 @@
 <View>
 	<Label>Alphabet</Label>
 	<% _.forEach(this.letters, function(letter, i) { %>
-		<Label id="<%- i+1 %>">Letter <%- letter %></Label>
+		<Label id="<%- i+1 %>" class="letter">Letter <%- letter %></Label>
 	<% }); %>
 	<Label>
 		The End

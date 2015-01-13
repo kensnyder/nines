@@ -24,7 +24,11 @@ function evalCompilation(code, data) {
 	function handleOptions(options) {
 		return options;
 	}
-	function require() {}
+	function require() {
+		return {
+			addView: function() {}
+		};
+	}
 	var module = {};
 	eval(code);
 	var root = module.exports.call(data);
@@ -238,10 +242,10 @@ exports["More Compiling"] = function(test) {
 		}),
 		{type:'View', options:{}, children:[
 			{type:'Label', options:{}, children: [], text:'Alphabet'},
-			{type:'Label', options:{id:'1'}, children: [], text:'Letter A'},
-			{type:'Label', options:{id:'2'}, children: [], text:'Letter B'},
-			{type:'Label', options:{id:'3'}, children: [], text:'Letter C'},
-			{type:'Label', options:{}, children: [], text:'The End'},
+			{type:'Label', options:{id:'1','class':'letter'}, children: [], text:'Letter A'},
+			{type:'Label', options:{id:'2','class':'letter'}, children: [], text:'Letter B'},
+			{type:'Label', options:{id:'3','class':'letter'}, children: [], text:'Letter C'},
+			{type:'Label', options:{}, children: [], text:'The End'}
 		]},
 		'complex forEach'
 	);	
